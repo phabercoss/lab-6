@@ -2,13 +2,31 @@
 background-color: blue;
 overflow: hidden;
 width: 100%;
+position: relative;
 }
 #navbar-container {
 float: left;
+position: relative;
+display: block;
 }
-#onpage {
+#navbar-container ul {
+  position: relative;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  right: 50%;
+}
+#navbar-container ul li {
+  float: left;
+  padding: 10px 20px;
+}
+#navbar-contain ul li a {
+  color: #fff;
+  text-decoration none;
+}
 
-}
 #sidebar {
 
 }
