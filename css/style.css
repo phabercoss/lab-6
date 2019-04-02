@@ -28,8 +28,24 @@ display: block;
 }
 
 #sidebar {
+  background-color: red;
+  position: fixed;
+  right: 0%;
+  height: 100%;
+  width: 20%;
 
 }
 #sidebar-container {
-
+  text-align: center;
+  display: block;
+}
+#sidebar-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+#sidebar-container ul li {
+  padding 15px 0;
+}
+#sidebar-container ul li a {
+  
 }
