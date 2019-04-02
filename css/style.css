@@ -1,35 +1,35 @@
 #main-navbar {
 background-color: blue;
-overflow: hidden;
 width: 100%;
+overflow: hidden;
 position: relative;
 }
 #navbar-container {
-float: left;
 position: relative;
+float: left;
 display: block;
+left: 50%
 }
 #navbar-container ul {
+  list-style-type: none;
   position: relative;
   float: left;
-  list-style-type: none;
+  display: block;
   margin: 0;
   padding: 0;
-  display: block;
   right: 50%;
 }
 #navbar-container ul li {
   float: left;
   padding: 10px 20px;
 }
-#navbar-contain ul li a {
+#navbar-container ul li a {
   color: #fff;
   text-decoration none;
 }
-
 #sidebar {
-  background-color: red;
   position: fixed;
+  background-color: red;
   right: 0%;
   height: 100%;
   width: 20%;
@@ -44,8 +44,13 @@ display: block;
   padding: 0;
 }
 #sidebar-container ul li {
-  padding 15px 0;
+  padding: 15px 0;
 }
 #sidebar-container ul li a {
-  
+  text-decoration: none;
+  color: #fff;
+}
+#onpage{
+  text-decoration: underline overline;
+  color: #fff;
 }
